@@ -13,19 +13,9 @@ from transformers import AutoModelForSequenceClassification
 
 
 rr_labels = [
-    'PREAMBLE',
-    'FAC',
-    'RLC',
-    'ISSUE',
-    'ARG_PETITIONER',
-    'ARG_RESPONDENT',
-    'ANALYSIS',
-    'STA',
-    'PRE_RELIED',
-    'PRE_NOT_RELIED',
-    'RATIO',
-    'RPC',
-    'NONE'
+    'Entrée',
+    'Plat principal',
+    'Dessert'
 ]
 label2id = {label: i for i, label in enumerate(rr_labels)}
 id2label = {i: label for label, i in label2id.items()}
@@ -117,7 +107,6 @@ if __name__ == '__main__':
         metric_for_best_model='eval_f1',
         evaluation_strategy='epoch', # change according to training strategy (steps, epoch)
         save_strategy='epoch',       # change according to training strategy (steps, epoch)
-        use_mps_device=device=='mps'
     )
 
     trainer = Trainer(
