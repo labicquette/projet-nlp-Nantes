@@ -79,7 +79,7 @@ if __name__ == '__main__':
         'validation': os.path.join(ROOT, 'dev.csv')
     })
 
-    dataset = dataset.map(_preprocess, batched=True)
+    #dataset = dataset.map(_preprocess, batched=True)
 
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     dataset = dataset.map(tokenize_function, batched=True)
