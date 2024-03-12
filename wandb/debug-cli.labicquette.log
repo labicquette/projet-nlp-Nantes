@@ -1,0 +1,54 @@
+2024-03-12 18:53:25 INFO open for scan: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/run-8en15jr0.wandb
+2024-03-12 18:53:26 INFO watching files in: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files
+2024-03-12 18:53:26 INFO run started: 8en15jr0 with start time 1709070480.522856
+2024-03-12 18:53:26 INFO saving file wandb-metadata.json with policy now
+2024-03-12 18:53:26 WARNING Seen metric with glob (shouldn't happen)
+2024-03-12 18:53:26 INFO saving file wandb-summary.json with policy end
+2024-03-12 18:53:26 INFO handling exit code: 0
+2024-03-12 18:53:26 INFO handling runtime: 853
+2024-03-12 18:53:26 INFO saving file wandb-summary.json with policy end
+2024-03-12 18:53:26 INFO send defer
+2024-03-12 18:53:26 INFO handle sender defer: 0
+2024-03-12 18:53:26 INFO send defer: 1
+2024-03-12 18:53:26 INFO handle sender defer: 1
+2024-03-12 18:53:26 INFO send defer: 2
+2024-03-12 18:53:26 INFO handle sender defer: 2
+2024-03-12 18:53:26 INFO send defer: 3
+2024-03-12 18:53:26 INFO handle sender defer: 3
+2024-03-12 18:53:26 INFO send defer: 4
+2024-03-12 18:53:26 INFO handle sender defer: 4
+2024-03-12 18:53:26 INFO send defer: 5
+2024-03-12 18:53:26 INFO handle sender defer: 5
+2024-03-12 18:53:26 INFO send defer: 6
+2024-03-12 18:53:26 INFO handle sender defer: 6
+2024-03-12 18:53:26 INFO send defer: 7
+2024-03-12 18:53:26 INFO handle sender defer: 7
+2024-03-12 18:53:26 WARNING Terminal output too large. Logging without processing.
+2024-03-12 18:53:26 INFO Uploaded file /tmp/tmpv4s65eh_wandb/nnpweyoz-wandb-metadata.json
+2024-03-12 18:53:27 INFO file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/config.yaml
+2024-03-12 18:53:27 INFO file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/wandb-summary.json
+2024-03-12 18:53:27 INFO file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/output.log
+2024-03-12 18:53:28 INFO send defer: 8
+2024-03-12 18:53:28 INFO handle sender defer: 8
+2024-03-12 18:53:28 INFO Attempting to build job artifact
+2024-03-12 18:53:28 INFO send defer: 9
+2024-03-12 18:53:28 INFO handle sender defer: 9
+2024-03-12 18:53:28 INFO shutting down directory watcher
+2024-03-12 18:53:29 INFO file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/output.log
+2024-03-12 18:53:29 INFO scan: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files
+2024-03-12 18:53:29 INFO scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/wandb-metadata.json wandb-metadata.json
+2024-03-12 18:53:29 INFO scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/wandb-summary.json wandb-summary.json
+2024-03-12 18:53:29 INFO scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/output.log output.log
+2024-03-12 18:53:29 INFO scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/config.yaml config.yaml
+2024-03-12 18:53:29 INFO send defer: 10
+2024-03-12 18:53:29 INFO handle sender defer: 10
+2024-03-12 18:53:29 INFO shutting down file pusher
+2024-03-12 18:53:29 INFO shutting down sender
+2024-03-12 18:53:29 INFO shutting down file pusher
+2024-03-12 18:53:29 INFO waiting for file pusher
+2024-03-12 18:53:29 INFO Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/wandb-summary.json
+2024-03-12 18:53:29 INFO Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/config.yaml
+2024-03-12 18:53:29 INFO Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/latest-run/files/output.log
+2024-03-12 18:53:30 INFO send defer: 11
+2024-03-12 18:53:30 INFO file stream finish called
+2024-03-12 18:53:30 INFO file stream finish is done

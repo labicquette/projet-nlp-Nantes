@@ -58,14 +58,40 @@ if __name__ == '__main__':
         return examples
     dataset = dataset.map(infer, batched=True, batch_size=batch_size)
 
+    def to_text(number):
+        if type(number) != int:
+            number = number[0]
+        if number == 0 :
+            return "Entrée"
+        if number == 1 :
+            return "Plat principal"
+        if number == 2 : 
+            return "Dessert"
 
     import csv
     import json
+    import pandas as pd
+    import numpy as np 
+
+    from sklearn.metrics import f1_score
+
     writer = csv.writer(output_file)
     writer.writerow(['anotation_id', 'labels', 'all_labels'])
-    for docs in dataset.iter(100):
-        for i in range(len(docs['annotation_id'])):
-            id_ = docs['annotation_id'][i]
-            bst_lbl = docs['rr_bst_pred'][i]
-            all_lbl = docs['rr_all_pred'][i]
-            writer.writerow([id_, bst_lbl, json.dumps(all_lbl)])
+    test = pd.read_csv(file)
+    restest = []
+    resdoc = []
+    for docs in dataset.iter(1):
+        for i in range(len(docs['rr_bst_pred'])):
+            #print(docs.keys())
+            #print('bst lbl', docs['rr_bst_pred'][i])
+            test_label = to_text(test.loc[test['text'] == docs['text'][i]]['label'].values)
+            restest += [test_label]
+            #print(docs['rr_bst_pred'][i])
+            resdoc += [docs['rr_bst_pred'][i]]
+
+
+    #res = np.array(res)
+    #print(len(res))
+    #print(len(res[np.where(res == True)])/ len(res))
+    #print(resdoc)
+    print('F1 score:', f1_score(restest, resdoc,  average='macro'))

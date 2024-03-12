@@ -29,7 +29,8 @@ NOM Prenom - NOM Prenom
 | -------- | --------:|
 | baseline |  21,1 |
 | METH 1   |  80,0|
-| METH 3   |   |
+| distilbert-ft-recette-3120   | 85,7  |
+| distilbert-ft-ingredients-3744   | 83,0  |	
 | METH 4   |   |
 
 ### Analyse de résultats
