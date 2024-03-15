@@ -90,12 +90,7 @@ CHARLOT Théo - SEWRAJ Hreshvik
 | camembert-base-1248   | 87,6 |	
 
 ### Analyse de résultats
-	
-	Pistes d'analyse:
-	* Combien de documents ont un score de 0 ? de 0.5 ? de 1 ? (Courbe ROC)
-	* Y-a-t-il des régularités dans les document bien/mal classifiés ?
-	* Où est-ce que l'approche se trompe ? (matrice de confusion)
-	* Si votre méthode le permet: quels sont les descripteurs les plus décisifs ?
+
 
 #### Architectures BERT :
 Pour commencer nous avons étudié l'impact des classes sur l'entraînement de distilbert, recette est l'unique classe permettant d'atteindre des scores supérieurs à 85, en effet, titre, ingrédients ainsi que la combinaison des 3 ont de moins bonnes performances. 
