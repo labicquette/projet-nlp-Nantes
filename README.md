@@ -91,7 +91,10 @@ CHARLOT Théo - SEWRAJ Hreshvik
 
 ### Liens huggingface
 git clone les modèles dans le dossier ./models et s'assurer d'avoir installé git lfs
-	
+
+	# si pas de dossiers ./models :
+ 	mkdir models
+  
  	git lfs install
   	git clone https://huggingface.co/labicquette/camembert-base
  
