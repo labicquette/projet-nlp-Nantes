@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  7%|█████▌                                                                            | 256/3744 [04:07<3:43:08,  3.84s/it]Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 122, in <module>
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1859, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 122, in <module>
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1859, in _inner_training_loop
+    and (torch.isnan(tr_loss_step) or torch.isinf(tr_loss_step))
+KeyboardInterrupt

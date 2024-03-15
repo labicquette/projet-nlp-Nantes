@@ -6,6 +6,7 @@ import json
 import torch
 from datasets import load_dataset
 from transformers import pipeline
+from sklearn.metrics import classification_report
 
 if __name__ == '__main__':
     def arguments():
@@ -84,7 +85,12 @@ if __name__ == '__main__':
         for i in range(len(docs['rr_bst_pred'])):
             #print(docs.keys())
             #print('bst lbl', docs['rr_bst_pred'][i])
+            
             test_label = to_text(test.loc[test['text'] == docs['text'][i]]['label'].values)
+            #if (test_label == 'Entrée') and  (docs['rr_bst_pred'][i] != 'Entrée'):
+                #print("\n\n\n")
+                #print(test_label, docs['rr_bst_pred'][i])
+                #print(docs)
             restest += [test_label]
             #print(docs['rr_bst_pred'][i])
             resdoc += [docs['rr_bst_pred'][i]]
@@ -95,3 +101,4 @@ if __name__ == '__main__':
     #print(len(res[np.where(res == True)])/ len(res))
     #print(resdoc)
     print('F1 score:', f1_score(restest, resdoc,  average='macro'))
+    print(classification_report(restest, resdoc))

@@ -1,0 +1,121 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-03-13T23:14:31.521322",
+    "startedAt": "2024-03-13T23:14:30.987991",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--data-path",
+        "./data/distilbert/combination",
+        "--model-name",
+        "almanach/camembert-base",
+        "--output-dir",
+        "./models/camembert-base-fine/",
+        "--num-epochs",
+        "10"
+    ],
+    "state": "running",
+    "program": "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py",
+    "codePathLocal": "legal_eval_ft.py",
+    "codePath": "legal_eval_ft.py",
+    "git": {
+        "remote": "https://github.com/labicquette/projet-nlp-Nantes",
+        "commit": "ecd6ba3b74bb6f35f568504b8c1e198c42f296c3"
+    },
+    "email": "komete17@gmail.com",
+    "root": "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes",
+    "host": "DESKTOP-VOM7ARG",
+    "username": "labicquette",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3693.0990000000015,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3693.099,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 177.44646835327148
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1060 6GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1060 6GB",
+            "memory_total": 6442450944
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti",
+            "memory_total": 12878610432
+        }
+    ],
+    "memory": {
+        "total": 25.442611694335938
+    }
+}

@@ -1,0 +1,198 @@
+2024-03-15 16:42:45,682 INFO    StreamThr :16071 [internal.py:wandb_internal():86] W&B internal server running at pid: 16071, started at: 2024-03-15 16:42:45.682095
+2024-03-15 16:42:45,683 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status
+2024-03-15 16:42:45,685 INFO    WriterThread:16071 [datastore.py:open_for_write():87] open: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/run-uuxwtw7h.wandb
+2024-03-15 16:42:45,685 DEBUG   SenderThread:16071 [sender.py:send():382] send: header
+2024-03-15 16:42:45,687 DEBUG   SenderThread:16071 [sender.py:send():382] send: run
+2024-03-15 16:42:46,063 INFO    SenderThread:16071 [dir_watcher.py:__init__():211] watching files in: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files
+2024-03-15 16:42:46,063 INFO    SenderThread:16071 [sender.py:_start_run_threads():1136] run started: uuxwtw7h with start time 1710517365.682251
+2024-03-15 16:42:46,066 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: check_version
+2024-03-15 16:42:46,066 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: check_version
+2024-03-15 16:42:46,171 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: run_start
+2024-03-15 16:42:46,180 DEBUG   HandlerThread:16071 [system_info.py:__init__():27] System info init
+2024-03-15 16:42:46,180 DEBUG   HandlerThread:16071 [system_info.py:__init__():42] System info init done
+2024-03-15 16:42:46,180 INFO    HandlerThread:16071 [system_monitor.py:start():194] Starting system monitor
+2024-03-15 16:42:46,180 INFO    SystemMonitor:16071 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-15 16:42:46,181 INFO    HandlerThread:16071 [system_monitor.py:probe():214] Collecting system info
+2024-03-15 16:42:46,181 INFO    SystemMonitor:16071 [interfaces.py:start():190] Started cpu monitoring
+2024-03-15 16:42:46,182 INFO    SystemMonitor:16071 [interfaces.py:start():190] Started disk monitoring
+2024-03-15 16:42:46,183 INFO    SystemMonitor:16071 [interfaces.py:start():190] Started gpu monitoring
+2024-03-15 16:42:46,184 INFO    SystemMonitor:16071 [interfaces.py:start():190] Started memory monitoring
+2024-03-15 16:42:46,185 INFO    SystemMonitor:16071 [interfaces.py:start():190] Started network monitoring
+2024-03-15 16:42:46,200 DEBUG   HandlerThread:16071 [system_info.py:probe():151] Probing system
+2024-03-15 16:42:46,208 DEBUG   HandlerThread:16071 [system_info.py:_probe_git():136] Probing git
+2024-03-15 16:42:46,211 DEBUG   HandlerThread:16071 [system_info.py:_probe_git():144] Probing git done
+2024-03-15 16:42:46,211 DEBUG   HandlerThread:16071 [system_info.py:probe():199] Probing system done
+2024-03-15 16:42:46,211 DEBUG   HandlerThread:16071 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-15T15:42:46.200219', 'startedAt': '2024-03-15T15:42:45.678612', 'docker': None, 'cuda': None, 'args': ('--data-path', './data/distilbert/recette', '--model-name', 'almanach/camembert-base', '--output-dir', './models/camembert-base-weighted/', '--custom-trainer', '--num-epochs', '10'), 'state': 'running', 'program': '/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py', 'codePathLocal': 'legal_eval_ft.py', 'codePath': 'legal_eval_ft.py', 'git': {'remote': 'https://github.com/labicquette/projet-nlp-Nantes', 'commit': 'ecd6ba3b74bb6f35f568504b8c1e198c42f296c3'}, 'email': 'komete17@gmail.com', 'root': '/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes', 'host': 'DESKTOP-VOM7ARG', 'username': 'labicquette', 'executable': '/usr/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3693.0959999999995, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}, {'current': 3693.096, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 270.05893325805664}}, 'gpu': 'NVIDIA GeForce GTX 1060 6GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 6GB', 'memory_total': 6442450944}, {'name': 'NVIDIA GeForce RTX 4070 Ti', 'memory_total': 12878610432}], 'memory': {'total': 25.442611694335938}}
+2024-03-15 16:42:46,211 INFO    HandlerThread:16071 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-15 16:42:46,211 INFO    HandlerThread:16071 [system_monitor.py:probe():227] Publishing system info
+2024-03-15 16:42:46,211 INFO    HandlerThread:16071 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-15 16:42:46,213 DEBUG   SenderThread:16071 [sender.py:send():382] send: files
+2024-03-15 16:42:46,214 INFO    SenderThread:16071 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-15 16:42:46,216 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-15 16:42:46,217 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: python_packages
+2024-03-15 16:42:46,218 DEBUG   SenderThread:16071 [sender.py:send():382] send: telemetry
+2024-03-15 16:42:46,221 DEBUG   SenderThread:16071 [sender.py:send():382] send: config
+2024-03-15 16:42:46,221 DEBUG   SenderThread:16071 [sender.py:send():382] send: metric
+2024-03-15 16:42:46,221 DEBUG   SenderThread:16071 [sender.py:send():382] send: telemetry
+2024-03-15 16:42:46,222 DEBUG   SenderThread:16071 [sender.py:send():382] send: metric
+2024-03-15 16:42:46,222 WARNING SenderThread:16071 [sender.py:send_metric():1354] Seen metric with glob (shouldn't happen)
+2024-03-15 16:42:46,222 DEBUG   SenderThread:16071 [sender.py:send():382] send: telemetry
+2024-03-15 16:42:46,222 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 16:42:46,223 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 16:42:46,223 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 16:42:46,758 INFO    wandb-upload_0:16071 [upload_job.py:push():131] Uploaded file /tmp/tmphfhhexufwandb/tm54nmio-wandb-metadata.json
+2024-03-15 16:42:47,064 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/wandb-metadata.json
+2024-03-15 16:42:47,065 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/output.log
+2024-03-15 16:42:47,065 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/requirements.txt
+2024-03-15 16:42:49,064 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/output.log
+2024-03-15 16:42:51,519 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:42:56,520 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:43:01,217 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-15 16:43:01,217 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: stop_status
+2024-03-15 16:43:01,264 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 16:43:02,442 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:43:07,443 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:43:12,444 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:43:12,886 DEBUG   SenderThread:16071 [sender.py:send():382] send: exit
+2024-03-15 16:43:12,887 INFO    SenderThread:16071 [sender.py:send_exit():589] handling exit code: 1
+2024-03-15 16:43:12,887 INFO    SenderThread:16071 [sender.py:send_exit():591] handling runtime: 26
+2024-03-15 16:43:12,887 INFO    SenderThread:16071 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 16:43:12,888 INFO    SenderThread:16071 [sender.py:send_exit():597] send defer
+2024-03-15 16:43:12,888 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,888 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-15 16:43:12,888 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,888 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-15 16:43:12,888 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 1
+2024-03-15 16:43:12,888 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,888 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-15 16:43:12,888 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,888 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-15 16:43:12,888 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 2
+2024-03-15 16:43:12,888 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,888 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-15 16:43:12,888 INFO    HandlerThread:16071 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-15 16:43:12,889 DEBUG   SystemMonitor:16071 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-15 16:43:12,889 DEBUG   SystemMonitor:16071 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-15 16:43:12,889 DEBUG   SystemMonitor:16071 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-15 16:43:12,889 INFO    HandlerThread:16071 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-15 16:43:12,889 INFO    HandlerThread:16071 [interfaces.py:finish():202] Joined disk monitor
+2024-03-15 16:43:12,901 INFO    HandlerThread:16071 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-15 16:43:12,901 INFO    HandlerThread:16071 [interfaces.py:finish():202] Joined memory monitor
+2024-03-15 16:43:12,901 INFO    HandlerThread:16071 [interfaces.py:finish():202] Joined network monitor
+2024-03-15 16:43:12,901 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,901 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-15 16:43:12,901 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 3
+2024-03-15 16:43:12,901 DEBUG   SenderThread:16071 [sender.py:send():382] send: stats
+2024-03-15 16:43:12,901 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,901 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-15 16:43:12,902 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 4
+2024-03-15 16:43:12,902 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,902 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-15 16:43:12,902 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 5
+2024-03-15 16:43:12,902 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,902 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-15 16:43:12,902 DEBUG   SenderThread:16071 [sender.py:send():382] send: summary
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 16:43:12,902 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-15 16:43:12,902 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 6
+2024-03-15 16:43:12,903 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:12,903 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-15 16:43:12,903 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:12,903 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-15 16:43:12,905 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 16:43:13,069 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/wandb-summary.json
+2024-03-15 16:43:13,093 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 7
+2024-03-15 16:43:13,093 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:13,093 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-15 16:43:13,094 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:13,094 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-15 16:43:13,885 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 16:43:14,069 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/config.yaml
+2024-03-15 16:43:14,257 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 8
+2024-03-15 16:43:14,257 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 16:43:14,257 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:14,257 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-15 16:43:14,257 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:14,257 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-15 16:43:14,257 INFO    SenderThread:16071 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-15 16:43:14,258 INFO    SenderThread:16071 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-15 16:43:14,271 INFO    SenderThread:16071 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-15 16:43:14,278 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 9
+2024-03-15 16:43:14,278 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:14,279 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-15 16:43:14,279 DEBUG   SenderThread:16071 [sender.py:send():382] send: artifact
+2024-03-15 16:43:14,886 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 16:43:15,069 INFO    Thread-13 :16071 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/output.log
+2024-03-15 16:43:15,075 INFO    SenderThread:16071 [sender.py:send_artifact():1494] sent artifact job-https___github.com_labicquette_projet-nlp-Nantes_legal_eval_ft.py - {'id': 'QXJ0aWZhY3Q6NzU0OTk2NDky', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODEzMjcxMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU1MDM0MTE3', 'versionIndex': 11}}}
+2024-03-15 16:43:15,075 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:15,075 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-15 16:43:15,075 INFO    SenderThread:16071 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-15 16:43:16,070 INFO    SenderThread:16071 [dir_watcher.py:finish():388] scan: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files
+2024-03-15 16:43:16,070 INFO    SenderThread:16071 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/wandb-metadata.json wandb-metadata.json
+2024-03-15 16:43:16,070 INFO    SenderThread:16071 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/wandb-summary.json wandb-summary.json
+2024-03-15 16:43:16,070 INFO    SenderThread:16071 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/output.log output.log
+2024-03-15 16:43:16,070 INFO    SenderThread:16071 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/config.yaml config.yaml
+2024-03-15 16:43:16,071 INFO    SenderThread:16071 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/requirements.txt requirements.txt
+2024-03-15 16:43:16,071 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 10
+2024-03-15 16:43:16,071 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 16:43:16,074 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:16,074 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-15 16:43:16,076 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:16,076 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-15 16:43:16,076 INFO    SenderThread:16071 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-15 16:43:16,423 INFO    wandb-upload_1:16071 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/wandb-summary.json
+2024-03-15 16:43:16,497 INFO    wandb-upload_2:16071 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/config.yaml
+2024-03-15 16:43:16,554 INFO    wandb-upload_0:16071 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/output.log
+2024-03-15 16:43:16,595 INFO    wandb-upload_3:16071 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/files/requirements.txt
+2024-03-15 16:43:16,796 INFO    Thread-12 (_thread_body):16071 [sender.py:transition_state():617] send defer: 11
+2024-03-15 16:43:16,796 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:16,796 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-15 16:43:16,796 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:16,796 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-15 16:43:16,796 INFO    SenderThread:16071 [file_pusher.py:join():181] waiting for file pusher
+2024-03-15 16:43:16,796 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 12
+2024-03-15 16:43:16,797 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:16,797 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-15 16:43:16,797 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:16,797 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-15 16:43:16,797 INFO    SenderThread:16071 [file_stream.py:finish():595] file stream finish called
+2024-03-15 16:43:16,887 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 16:43:16,941 INFO    SenderThread:16071 [file_stream.py:finish():599] file stream finish is done
+2024-03-15 16:43:16,941 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 13
+2024-03-15 16:43:16,941 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 16:43:16,942 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:16,942 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-15 16:43:16,942 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:16,942 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-15 16:43:16,942 INFO    SenderThread:16071 [sender.py:transition_state():617] send defer: 14
+2024-03-15 16:43:16,942 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: defer
+2024-03-15 16:43:16,942 INFO    HandlerThread:16071 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-15 16:43:16,942 DEBUG   SenderThread:16071 [sender.py:send():382] send: final
+2024-03-15 16:43:16,942 DEBUG   SenderThread:16071 [sender.py:send():382] send: footer
+2024-03-15 16:43:16,943 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: defer
+2024-03-15 16:43:16,943 INFO    SenderThread:16071 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-15 16:43:16,943 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 16:43:16,943 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-15 16:43:16,943 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 16:43:16,944 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: poll_exit
+2024-03-15 16:43:16,944 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: server_info
+2024-03-15 16:43:16,944 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: server_info
+2024-03-15 16:43:16,945 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-15 16:43:16,945 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-15 16:43:16,946 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-15 16:43:16,946 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: job_info
+2024-03-15 16:43:17,092 DEBUG   SenderThread:16071 [sender.py:send_request():409] send_request: job_info
+2024-03-15 16:43:17,093 INFO    MainThread:16071 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-03-15 16:43:17,093 INFO    MainThread:16071 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-03-15 16:43:17,093 INFO    MainThread:16071 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-03-15 16:43:17,093 DEBUG   HandlerThread:16071 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-15 16:43:17,093 INFO    HandlerThread:16071 [handler.py:finish():869] shutting down handler
+2024-03-15 16:43:17,946 INFO    WriterThread:16071 [datastore.py:close():296] close: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_164245-uuxwtw7h/run-uuxwtw7h.wandb
+2024-03-15 16:43:18,093 INFO    SenderThread:16071 [sender.py:finish():1572] shutting down sender
+2024-03-15 16:43:18,093 INFO    SenderThread:16071 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-15 16:43:18,093 INFO    SenderThread:16071 [file_pusher.py:join():181] waiting for file pusher

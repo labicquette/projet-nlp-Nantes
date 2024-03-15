@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  1%|▋                                                                                  | 29/3744 [00:59<1:14:53,  1.21s/it]Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 122, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1821, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/data_loader.py", line 460, in __iter__
+    current_batch = send_to_device(current_batch, self.device)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 161, in send_to_device
+    {
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 162, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 171, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 122, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1821, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/data_loader.py", line 460, in __iter__
+    current_batch = send_to_device(current_batch, self.device)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 161, in send_to_device
+    {
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 162, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 171, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+KeyboardInterrupt

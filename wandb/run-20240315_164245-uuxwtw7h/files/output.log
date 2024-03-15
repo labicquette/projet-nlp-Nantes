@@ -1,0 +1,41 @@
+
+  0%|                                                                                          | 0/6240 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 151, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2728, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 48, in compute_loss
+    loss = loss_fct(logits.view(-1, self.model.config.num_labels), labels.view(-1))
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1179, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3059, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: weight tensor should be defined either for all 3 classes or no classes but got weight tensor of shape: [2]
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 151, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2728, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 48, in compute_loss
+    loss = loss_fct(logits.view(-1, self.model.config.num_labels), labels.view(-1))
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1179, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/labicquette/.local/lib/python3.10/site-packages/torch/nn/functional.py", line 3059, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+RuntimeError: weight tensor should be defined either for all 3 classes or no classes but got weight tensor of shape: [2]

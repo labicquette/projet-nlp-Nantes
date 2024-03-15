@@ -1,0 +1,194 @@
+2024-03-14 20:07:01,371 INFO    StreamThr :283993 [internal.py:wandb_internal():86] W&B internal server running at pid: 283993, started at: 2024-03-14 20:07:01.371068
+2024-03-14 20:07:01,372 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: status
+2024-03-14 20:07:01,374 INFO    WriterThread:283993 [datastore.py:open_for_write():87] open: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/run-anlinoyt.wandb
+2024-03-14 20:07:01,374 DEBUG   SenderThread:283993 [sender.py:send():382] send: header
+2024-03-14 20:07:01,376 DEBUG   SenderThread:283993 [sender.py:send():382] send: run
+2024-03-14 20:07:01,767 INFO    SenderThread:283993 [dir_watcher.py:__init__():211] watching files in: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files
+2024-03-14 20:07:01,767 INFO    SenderThread:283993 [sender.py:_start_run_threads():1136] run started: anlinoyt with start time 1710443221.371075
+2024-03-14 20:07:01,769 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: check_version
+2024-03-14 20:07:01,769 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: check_version
+2024-03-14 20:07:01,913 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: run_start
+2024-03-14 20:07:01,922 DEBUG   HandlerThread:283993 [system_info.py:__init__():27] System info init
+2024-03-14 20:07:01,922 DEBUG   HandlerThread:283993 [system_info.py:__init__():42] System info init done
+2024-03-14 20:07:01,922 INFO    HandlerThread:283993 [system_monitor.py:start():194] Starting system monitor
+2024-03-14 20:07:01,922 INFO    SystemMonitor:283993 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-14 20:07:01,923 INFO    HandlerThread:283993 [system_monitor.py:probe():214] Collecting system info
+2024-03-14 20:07:01,923 INFO    SystemMonitor:283993 [interfaces.py:start():190] Started cpu monitoring
+2024-03-14 20:07:01,924 INFO    SystemMonitor:283993 [interfaces.py:start():190] Started disk monitoring
+2024-03-14 20:07:01,924 INFO    SystemMonitor:283993 [interfaces.py:start():190] Started gpu monitoring
+2024-03-14 20:07:01,925 INFO    SystemMonitor:283993 [interfaces.py:start():190] Started memory monitoring
+2024-03-14 20:07:01,926 INFO    SystemMonitor:283993 [interfaces.py:start():190] Started network monitoring
+2024-03-14 20:07:01,938 DEBUG   HandlerThread:283993 [system_info.py:probe():151] Probing system
+2024-03-14 20:07:01,947 DEBUG   HandlerThread:283993 [system_info.py:_probe_git():136] Probing git
+2024-03-14 20:07:01,950 DEBUG   HandlerThread:283993 [system_info.py:_probe_git():144] Probing git done
+2024-03-14 20:07:01,950 DEBUG   HandlerThread:283993 [system_info.py:probe():199] Probing system done
+2024-03-14 20:07:01,950 DEBUG   HandlerThread:283993 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-03-14T19:07:01.938792', 'startedAt': '2024-03-14T19:07:01.367091', 'docker': None, 'cuda': None, 'args': ('--data-path', './data/distilbert/recette', '--model-name', 'almanach/camembert-base', '--output-dir', './models/camembert-base-weighted/', '--custom-trainer', '--num-epochs', '10'), 'state': 'running', 'program': '/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py', 'codePathLocal': 'legal_eval_ft.py', 'codePath': 'legal_eval_ft.py', 'git': {'remote': 'https://github.com/labicquette/projet-nlp-Nantes', 'commit': 'ecd6ba3b74bb6f35f568504b8c1e198c42f296c3'}, 'email': 'komete17@gmail.com', 'root': '/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes', 'host': 'DESKTOP-VOM7ARG', 'username': 'labicquette', 'executable': '/usr/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3693.0979999999986, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}, {'current': 3693.098, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 269.9289093017578}}, 'gpu': 'NVIDIA GeForce GTX 1060 6GB', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1060 6GB', 'memory_total': 6442450944}, {'name': 'NVIDIA GeForce RTX 4070 Ti', 'memory_total': 12878610432}], 'memory': {'total': 25.442611694335938}}
+2024-03-14 20:07:01,950 INFO    HandlerThread:283993 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-14 20:07:01,950 INFO    HandlerThread:283993 [system_monitor.py:probe():227] Publishing system info
+2024-03-14 20:07:01,950 INFO    HandlerThread:283993 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-14 20:07:01,952 DEBUG   SenderThread:283993 [sender.py:send():382] send: files
+2024-03-14 20:07:01,952 INFO    SenderThread:283993 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-14 20:07:01,956 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-14 20:07:01,956 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: python_packages
+2024-03-14 20:07:01,956 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:01,956 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: stop_status
+2024-03-14 20:07:01,957 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:02,182 DEBUG   SenderThread:283993 [sender.py:send():382] send: telemetry
+2024-03-14 20:07:02,183 DEBUG   SenderThread:283993 [sender.py:send():382] send: config
+2024-03-14 20:07:02,183 DEBUG   SenderThread:283993 [sender.py:send():382] send: metric
+2024-03-14 20:07:02,183 DEBUG   SenderThread:283993 [sender.py:send():382] send: telemetry
+2024-03-14 20:07:02,183 DEBUG   SenderThread:283993 [sender.py:send():382] send: metric
+2024-03-14 20:07:02,183 WARNING SenderThread:283993 [sender.py:send_metric():1354] Seen metric with glob (shouldn't happen)
+2024-03-14 20:07:02,183 DEBUG   SenderThread:283993 [sender.py:send():382] send: telemetry
+2024-03-14 20:07:02,518 INFO    wandb-upload_0:283993 [upload_job.py:push():131] Uploaded file /tmp/tmp9pwqlctbwandb/cai2jbnl-wandb-metadata.json
+2024-03-14 20:07:02,768 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/output.log
+2024-03-14 20:07:02,768 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/requirements.txt
+2024-03-14 20:07:02,768 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/wandb-metadata.json
+2024-03-14 20:07:04,768 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/output.log
+2024-03-14 20:07:07,184 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:12,185 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:16,956 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-14 20:07:16,956 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:16,957 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: stop_status
+2024-03-14 20:07:18,121 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:21,419 DEBUG   SenderThread:283993 [sender.py:send():382] send: exit
+2024-03-14 20:07:21,419 INFO    SenderThread:283993 [sender.py:send_exit():589] handling exit code: 1
+2024-03-14 20:07:21,419 INFO    SenderThread:283993 [sender.py:send_exit():591] handling runtime: 19
+2024-03-14 20:07:21,420 INFO    SenderThread:283993 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-14 20:07:21,420 INFO    SenderThread:283993 [sender.py:send_exit():597] send defer
+2024-03-14 20:07:21,420 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,420 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-14 20:07:21,421 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,421 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-14 20:07:21,421 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 1
+2024-03-14 20:07:21,421 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,421 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-14 20:07:21,421 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,421 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-14 20:07:21,421 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 2
+2024-03-14 20:07:21,421 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,421 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-14 20:07:21,421 INFO    HandlerThread:283993 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-14 20:07:21,421 DEBUG   SystemMonitor:283993 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-14 20:07:21,422 DEBUG   SystemMonitor:283993 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-14 20:07:21,422 INFO    HandlerThread:283993 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-14 20:07:21,422 DEBUG   SystemMonitor:283993 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-14 20:07:21,422 INFO    HandlerThread:283993 [interfaces.py:finish():202] Joined disk monitor
+2024-03-14 20:07:21,436 INFO    HandlerThread:283993 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-14 20:07:21,436 INFO    HandlerThread:283993 [interfaces.py:finish():202] Joined memory monitor
+2024-03-14 20:07:21,436 INFO    HandlerThread:283993 [interfaces.py:finish():202] Joined network monitor
+2024-03-14 20:07:21,436 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,436 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-14 20:07:21,436 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 3
+2024-03-14 20:07:21,436 DEBUG   SenderThread:283993 [sender.py:send():382] send: stats
+2024-03-14 20:07:21,436 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,436 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-14 20:07:21,437 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,437 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-14 20:07:21,437 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 4
+2024-03-14 20:07:21,437 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,437 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-14 20:07:21,437 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,437 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-14 20:07:21,437 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 5
+2024-03-14 20:07:21,437 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,437 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-14 20:07:21,437 DEBUG   SenderThread:283993 [sender.py:send():382] send: summary
+2024-03-14 20:07:21,437 INFO    SenderThread:283993 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-14 20:07:21,438 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,438 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-14 20:07:21,438 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 6
+2024-03-14 20:07:21,438 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,438 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-14 20:07:21,438 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,438 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-14 20:07:21,440 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: status_report
+2024-03-14 20:07:21,619 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 7
+2024-03-14 20:07:21,619 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:21,619 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-14 20:07:21,620 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:21,620 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-14 20:07:21,771 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/config.yaml
+2024-03-14 20:07:21,771 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_created():271] file/dir created: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/wandb-summary.json
+2024-03-14 20:07:22,209 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 8
+2024-03-14 20:07:22,209 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:22,209 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-14 20:07:22,209 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:22,209 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-14 20:07:22,209 INFO    SenderThread:283993 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-14 20:07:22,210 INFO    SenderThread:283993 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-14 20:07:22,223 INFO    SenderThread:283993 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-14 20:07:22,231 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 9
+2024-03-14 20:07:22,231 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:22,231 DEBUG   SenderThread:283993 [sender.py:send():382] send: artifact
+2024-03-14 20:07:22,231 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-14 20:07:22,419 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:07:22,771 INFO    Thread-13 :283993 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/output.log
+2024-03-14 20:07:22,973 INFO    SenderThread:283993 [sender.py:send_artifact():1494] sent artifact job-https___github.com_labicquette_projet-nlp-Nantes_legal_eval_ft.py - {'id': 'QXJ0aWZhY3Q6NzU0OTk2NDky', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0ODEzMjcxMQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzU1MDM0MTE3', 'versionIndex': 11}}}
+2024-03-14 20:07:22,974 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:22,974 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-14 20:07:22,974 INFO    SenderThread:283993 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-14 20:07:23,772 INFO    SenderThread:283993 [dir_watcher.py:finish():388] scan: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files
+2024-03-14 20:07:23,772 INFO    SenderThread:283993 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/wandb-metadata.json wandb-metadata.json
+2024-03-14 20:07:23,772 INFO    SenderThread:283993 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/wandb-summary.json wandb-summary.json
+2024-03-14 20:07:23,772 INFO    SenderThread:283993 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/output.log output.log
+2024-03-14 20:07:23,772 INFO    SenderThread:283993 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/config.yaml config.yaml
+2024-03-14 20:07:23,775 INFO    SenderThread:283993 [dir_watcher.py:finish():402] scan save: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/requirements.txt requirements.txt
+2024-03-14 20:07:23,775 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 10
+2024-03-14 20:07:23,775 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: poll_exit
+2024-03-14 20:07:23,776 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:23,777 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-14 20:07:23,778 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:23,778 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-14 20:07:23,778 INFO    SenderThread:283993 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-14 20:07:24,113 INFO    wandb-upload_0:283993 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/wandb-summary.json
+2024-03-14 20:07:24,205 INFO    wandb-upload_1:283993 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/output.log
+2024-03-14 20:07:24,256 INFO    wandb-upload_3:283993 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/requirements.txt
+2024-03-14 20:07:24,266 INFO    wandb-upload_2:283993 [upload_job.py:push():131] Uploaded file /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/files/config.yaml
+2024-03-14 20:07:24,420 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:07:24,420 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: poll_exit
+2024-03-14 20:07:24,466 INFO    Thread-12 (_thread_body):283993 [sender.py:transition_state():617] send defer: 11
+2024-03-14 20:07:24,466 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:24,466 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-14 20:07:24,466 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:24,466 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-14 20:07:24,466 INFO    SenderThread:283993 [file_pusher.py:join():181] waiting for file pusher
+2024-03-14 20:07:24,467 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 12
+2024-03-14 20:07:24,467 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:24,467 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-14 20:07:24,467 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:24,467 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-14 20:07:24,467 INFO    SenderThread:283993 [file_stream.py:finish():595] file stream finish called
+2024-03-14 20:07:24,612 INFO    SenderThread:283993 [file_stream.py:finish():599] file stream finish is done
+2024-03-14 20:07:24,612 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 13
+2024-03-14 20:07:24,612 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:24,612 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-14 20:07:24,612 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:24,612 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-14 20:07:24,612 INFO    SenderThread:283993 [sender.py:transition_state():617] send defer: 14
+2024-03-14 20:07:24,613 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: defer
+2024-03-14 20:07:24,613 INFO    HandlerThread:283993 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-14 20:07:24,613 DEBUG   SenderThread:283993 [sender.py:send():382] send: final
+2024-03-14 20:07:24,613 DEBUG   SenderThread:283993 [sender.py:send():382] send: footer
+2024-03-14 20:07:24,613 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: defer
+2024-03-14 20:07:24,613 INFO    SenderThread:283993 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-14 20:07:24,613 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:07:24,614 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-14 20:07:24,614 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: poll_exit
+2024-03-14 20:07:24,614 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: poll_exit
+2024-03-14 20:07:24,614 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: server_info
+2024-03-14 20:07:24,615 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-14 20:07:24,615 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: server_info
+2024-03-14 20:07:24,615 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-14 20:07:24,616 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-14 20:07:24,617 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: job_info
+2024-03-14 20:07:24,751 DEBUG   SenderThread:283993 [sender.py:send_request():409] send_request: job_info
+2024-03-14 20:07:24,751 INFO    MainThread:283993 [wandb_run.py:_footer_history_summary_info():3857] rendering history
+2024-03-14 20:07:24,751 INFO    MainThread:283993 [wandb_run.py:_footer_history_summary_info():3889] rendering summary
+2024-03-14 20:07:24,751 INFO    MainThread:283993 [wandb_run.py:_footer_sync_info():3816] logging synced files
+2024-03-14 20:07:24,751 DEBUG   HandlerThread:283993 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-14 20:07:24,751 INFO    HandlerThread:283993 [handler.py:finish():869] shutting down handler
+2024-03-14 20:07:25,617 INFO    WriterThread:283993 [datastore.py:close():296] close: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240314_200701-anlinoyt/run-anlinoyt.wandb
+2024-03-14 20:07:25,751 INFO    SenderThread:283993 [sender.py:finish():1572] shutting down sender
+2024-03-14 20:07:25,751 INFO    SenderThread:283993 [file_pusher.py:finish():175] shutting down file pusher
+2024-03-14 20:07:25,751 INFO    SenderThread:283993 [file_pusher.py:join():181] waiting for file pusher

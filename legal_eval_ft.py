@@ -10,6 +10,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer
 from transformers import Trainer, TrainingArguments
 from transformers import AutoModelForSequenceClassification
+from torch import nn
 
 
 rr_labels = [
@@ -33,6 +34,21 @@ def tokenize_function(examples):
     return tokenizer(examples['text'], padding='max_length', truncation=True)
 
 
+class CustomTrainer(Trainer):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def compute_loss(self, model, inputs, return_outputs=False):
+        labels = inputs.pop("labels")
+        # forward pass
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
+        # compute custom loss (suppose one has 2 labels with different weights)
+        loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([3.0, 1.0, 1.5]).to('cuda'))
+        loss = loss_fct(logits.view(-1, self.model.config.num_labels), labels.view(-1))
+        return (loss, outputs) if return_outputs else loss
+
+
 if __name__ == '__main__':
     def arguments():
         import argparse
@@ -48,6 +64,9 @@ if __name__ == '__main__':
 
         parser.add_argument("--output-dir", type=str, default='.', help="Directory to save model's checkpoints (default: models/{model_name}-e{num_epochs}-b{batch_size}-{mask_strategy})")
         parser.add_argument("--resume", action='store_true', help="Resume from previous training")
+        parser.add_argument("--custom-trainer", action='store_true', help="use Weighted training")
+
+
 
         return parser.parse_args()
 
@@ -62,6 +81,7 @@ if __name__ == '__main__':
     batch_size = args.batch_size
     num_epochs = args.num_epochs
     resume = args.resume
+    custom_trainer = args.custom_trainer
 
 
     dataset = load_dataset('csv', data_files={
@@ -71,7 +91,7 @@ if __name__ == '__main__':
 
     #dataset = dataset.map(_preprocess, batched=True)
 
-    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name, padding='max_length', truncation=True)
     dataset = dataset.map(tokenize_function, batched=True)
 
 
@@ -102,20 +122,31 @@ if __name__ == '__main__':
         warmup_steps=500,                # number of warmup steps for learning rate scheduler
         weight_decay=0.01,               # strength of weight decay
         logging_dir=os.path.join(output_dir, 'logs'),            # directory for storing logs
-        logging_steps=200,
+        logging_steps=100,
+        save_steps=100,
         load_best_model_at_end=True,
         metric_for_best_model='eval_f1',
-        evaluation_strategy='epoch', # change according to training strategy (steps, epoch)
-        save_strategy='epoch',       # change according to training strategy (steps, epoch)
+        evaluation_strategy='steps', # change according to training strategy (steps, epoch)
+        save_strategy='steps',    # change according to training strategy (steps, epoch)'
+        torch_compile=True,
+        optim="adamw_torch_fused",
     )
-
-    trainer = Trainer(
-        model=model.to(device),              # the instantiated 🤗 Transformers model to be trained
-        args=training_args,                  # training arguments, defined above
-        train_dataset=dataset['train'],      # training dataset
-        eval_dataset=dataset['validation'],  # evaluation dataset
-        compute_metrics=compute_metrics,
-    )
+    if custom_trainer: 
+        trainer = CustomTrainer(
+            model=model.to(device),              # the instantiated 🤗 Transformers model to be trained
+            args=training_args,                  # training arguments, defined above
+            train_dataset=dataset['train'],      # training dataset
+            eval_dataset=dataset['validation'],  # evaluation dataset
+            compute_metrics=compute_metrics,
+        )
+    else :
+        trainer = Trainer(
+            model=model.to(device),              # the instantiated 🤗 Transformers model to be trained
+            args=training_args,                  # training arguments, defined above
+            train_dataset=dataset['train'],      # training dataset
+            eval_dataset=dataset['validation'],  # evaluation dataset
+            compute_metrics=compute_metrics,
+        )
 
     trainer.train(resume_from_checkpoint=resume)
     trainer.save_model(os.path.join(output_dir, output_model_name + '-best'))

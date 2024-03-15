@@ -1,0 +1,287 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|██▏                                                                                  | 99/3744 [00:55<35:20,  1.72it/s]
+  3%|██▏                                                                                 | 100/3744 [00:56<34:46,  1.75it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 98%|███████████████████████████████████████████████████████████████████████████████████▎ | 153/156 [02:04<00:02,  1.23it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  5%|████▍                                                                               | 196/3744 [03:59<36:02,  1.64it/s]
+
+  5%|████▍                                                                               | 200/3744 [04:01<34:15,  1.72it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████▍| 155/156 [02:07<00:00,  1.18it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  8%|██████▋                                                                             | 300/3744 [07:14<32:55,  1.74it/s]
+{'loss': 0.4322, 'learning_rate': 3e-05, 'epoch': 0.48}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 121, in <module>01:27,  1.18it/s]
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1914, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2263, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3012, in evaluate
+    output = eval_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3223, in evaluation_loop
+    logits = self.accelerator.pad_across_processes(logits, dim=1, pad_index=-100)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/accelerator.py", line 2292, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 380, in wrapper
+    return function(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 589, in pad_across_processes
+    return recursively_apply(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 129, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 569, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 121, in <module>
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1914, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2263, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3012, in evaluate
+    output = eval_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3223, in evaluation_loop
+    logits = self.accelerator.pad_across_processes(logits, dim=1, pad_index=-100)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/accelerator.py", line 2292, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 380, in wrapper
+    return function(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 589, in pad_across_processes
+    return recursively_apply(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 129, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 569, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt

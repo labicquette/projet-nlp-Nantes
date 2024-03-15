@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|██▏                                                                               | 100/3744 [01:23<1:10:54,  1.17s/it]
+{'loss': 1.033, 'learning_rate': 1e-05, 'epoch': 0.16}
+
+
+
+
+
+
+
+
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 123, in <module>00:01,  7.79it/s]
+    trainer.save_model(os.path.join(output_dir, output_model_name + '-best'))
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1914, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2263, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3012, in evaluate
+    output = eval_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3223, in evaluation_loop
+    logits = self.accelerator.pad_across_processes(logits, dim=1, pad_index=-100)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/accelerator.py", line 2292, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 380, in wrapper
+    return function(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 589, in pad_across_processes
+    return recursively_apply(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 129, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 569, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 123, in <module>
+    trainer.save_model(os.path.join(output_dir, output_model_name + '-best'))
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1914, in _inner_training_loop
+    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2263, in _maybe_log_save_evaluate
+    metrics = self.evaluate(ignore_keys=ignore_keys_for_eval)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3012, in evaluate
+    output = eval_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 3223, in evaluation_loop
+    logits = self.accelerator.pad_across_processes(logits, dim=1, pad_index=-100)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/accelerator.py", line 2292, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 380, in wrapper
+    return function(*args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 589, in pad_across_processes
+    return recursively_apply(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 129, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/accelerate/utils/operations.py", line 569, in _pad_across_processes
+    size = torch.tensor(tensor.shape, device=tensor.device)[None]
+KeyboardInterrupt

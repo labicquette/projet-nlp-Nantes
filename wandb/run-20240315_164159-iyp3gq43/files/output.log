@@ -1,0 +1,25 @@
+
+  0%|                                                                                          | 0/6240 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 151, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2728, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 47, in compute_loss
+    loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([8.0, 1.0]).to('cuda'), device='cuda')
+TypeError: CrossEntropyLoss.__init__() got an unexpected keyword argument 'device'
+Traceback (most recent call last):
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 151, in <module>
+    trainer.train(resume_from_checkpoint=resume)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/labicquette/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2728, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/legal_eval_ft.py", line 47, in compute_loss
+    loss_fct = nn.CrossEntropyLoss(weight=torch.tensor([8.0, 1.0]).to('cuda'), device='cuda')
+TypeError: CrossEntropyLoss.__init__() got an unexpected keyword argument 'device'

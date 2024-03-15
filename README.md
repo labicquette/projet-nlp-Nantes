@@ -30,7 +30,9 @@ NOM Prenom - NOM Prenom
 | baseline |  21,1 |
 | METH 1   |  80,0|
 | distilbert-ft-recette-3120   | 85,7  |
-| distilbert-ft-ingredients-3744   | 83,0  |	
+| distilbert-ft-ingredients-3744   | 83,0  |
+| camembert-base-1248   | 87,6  |
+| camembert-base-naive-weights-1900   | 87,6  |
 | METH 4   |   |
 
 ### Analyse de résultats
