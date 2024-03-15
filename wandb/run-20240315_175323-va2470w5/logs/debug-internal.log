@@ -1255,3 +1255,836 @@
 2024-03-15 18:16:54,091 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
 2024-03-15 18:16:56,092 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
 2024-03-15 18:16:56,859 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:16:58,092 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:16:59,085 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:02,093 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:02,094 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:04,086 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:04,093 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:06,094 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:07,415 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:08,094 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:09,086 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:10,095 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:12,096 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:12,675 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:14,087 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:14,096 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:16,096 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:18,048 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:18,097 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:19,091 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:20,097 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:22,098 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:23,314 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:23,851 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:17:24,092 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:24,098 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:26,099 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:28,099 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:28,681 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:29,092 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:30,100 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:34,087 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:34,093 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:34,101 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:36,101 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:38,102 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:39,094 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:39,569 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:40,102 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:42,103 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:44,095 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:44,103 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:44,958 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:46,104 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:48,104 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:49,095 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:50,104 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:50,723 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:53,852 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:17:54,096 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:54,105 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:56,344 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:17:57,106 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:17:59,097 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:17:59,107 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:01,107 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:01,889 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:03,107 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:04,097 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:05,108 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:07,108 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:07,453 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:09,098 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:09,109 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:11,109 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:13,001 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:13,110 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:14,099 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:17,111 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:18,369 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:19,100 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:19,111 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:21,112 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:23,112 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:23,852 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:18:23,853 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:24,100 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:25,113 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:27,113 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:28,864 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:29,101 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:29,114 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:33,115 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:34,102 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:34,463 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:35,115 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:37,116 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:39,103 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:39,117 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:40,286 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:41,117 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:43,118 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:44,104 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:45,812 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:46,069 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:18:46,070 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:18:46,070 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:18:46,071 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:18:46,118 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:46,119 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:18:47,119 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:48,119 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:49,105 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:50,119 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:50,863 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:52,120 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:53,853 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:18:54,105 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:18:54,120 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:55,964 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:18:56,121 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:58,121 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:18:59,106 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:00,121 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:01,063 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:02,122 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:04,107 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:04,122 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:05,193 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:19:05,194 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:19:05,194 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:19:05,196 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:19:06,123 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:06,123 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:19:06,196 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:07,123 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:09,450 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:11,197 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:36,922 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:37,252 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:37,252 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:19:42,253 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:44,532 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:44,533 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:47,255 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:49,696 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:49,911 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:52,256 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:55,795 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:19:56,138 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:19:57,512 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:19:58,138 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:00,139 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:00,159 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:20:00,796 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:02,139 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:02,963 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:04,140 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:05,797 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:08,141 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:08,588 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:10,141 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:10,797 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:12,142 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:14,111 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:14,143 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:15,798 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:16,143 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:18,144 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:19,757 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:20,877 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:24,757 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:30,260 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:30,260 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:30,889 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:33,700 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:20:35,245 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:35,564 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:35,890 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:37,246 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:39,246 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:40,891 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:41,009 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:41,247 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:45,248 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:46,691 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:47,248 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:20:47,534 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:51,692 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:52,568 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:20:56,692 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:20:58,925 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:00,160 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:21:02,161 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:04,267 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:07,161 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:09,285 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:12,163 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:14,286 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:17,164 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:19,303 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:24,571 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:24,571 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:27,296 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:29,652 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:30,161 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:21:33,162 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:35,417 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:38,162 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:40,298 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:43,163 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:45,298 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:48,164 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:50,299 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:53,559 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:55,256 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:21:55,300 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:21:57,256 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:21:58,812 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:21:59,257 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:00,161 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:22:00,300 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:01,257 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:03,258 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:04,149 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:05,258 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:05,301 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:07,259 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:09,403 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:16,349 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:16,349 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:19,021 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:19,263 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:19,756 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:21,263 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:23,264 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:24,123 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:25,186 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:25,264 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:27,265 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:29,123 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:29,265 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:30,161 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:22:31,162 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:33,266 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:34,124 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:35,266 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:36,240 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:37,267 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:39,125 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:39,267 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:41,268 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:41,839 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:43,268 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:44,126 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:45,268 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:47,197 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:47,269 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:49,166 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:49,166 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:49,269 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:52,314 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:53,270 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:54,166 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:55,271 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:22:58,212 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:22:59,167 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:22:59,272 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:00,162 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:23:01,273 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:03,274 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:03,969 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:04,168 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:05,274 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:07,275 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:09,275 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:09,724 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:14,725 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:19,726 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:24,726 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:27,074 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:27,076 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:30,163 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:23:30,163 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:31,280 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:35,163 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:36,285 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:39,281 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:40,371 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:41,282 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:41,287 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:43,282 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:45,282 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:45,912 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:46,287 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:49,283 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:51,284 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:51,288 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:51,492 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:53,284 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:55,285 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:56,289 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:23:56,866 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:23:57,285 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:23:59,286 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:00,163 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:24:02,164 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:07,164 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:12,165 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:17,165 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:22,166 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:27,166 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:30,164 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:24:31,007 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:31,009 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:33,002 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:35,292 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:36,087 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:38,430 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:39,293 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:41,294 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:41,442 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:43,294 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:43,833 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:45,295 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:46,442 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:47,295 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:48,868 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:49,296 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:51,443 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:53,297 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:54,368 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:24:55,298 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:56,444 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:24:57,298 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:59,299 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:24:59,919 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:00,164 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:25:01,299 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:01,445 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:03,300 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:05,300 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:05,742 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:06,446 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:07,301 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:09,301 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:11,006 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:11,446 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:13,302 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:15,303 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:16,447 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:16,567 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:17,303 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:19,304 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:22,037 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:22,305 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:22,773 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:26,306 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:27,121 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:27,933 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:28,306 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:30,165 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:25:32,165 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:32,307 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:34,308 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:37,808 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:52,113 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:52,113 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:52,686 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:25:52,810 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:56,312 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:25:58,255 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:25:58,312 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:01,210 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:01,263 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:26:03,263 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:04,314 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:06,211 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:08,315 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:08,848 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:10,315 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:11,212 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:12,316 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:13,898 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:14,316 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:15,105 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:26:15,106 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:26:15,106 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:26:15,107 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:26:15,316 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:26:16,213 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:16,317 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:18,317 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:18,987 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:20,317 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:21,218 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:22,318 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:24,109 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:24,318 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:26,218 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:26,319 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:28,319 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:29,195 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:30,165 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:26:30,320 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:31,219 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:32,320 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:34,270 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:34,321 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:34,774 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:26:34,775 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:26:34,776 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:26:34,776 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:26:35,321 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:26:36,321 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:36,491 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:37,321 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:39,668 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:41,323 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:41,492 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:43,323 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:44,893 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:45,324 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:46,492 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:47,324 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:49,325 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:50,768 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:51,325 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:51,493 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:53,326 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:56,474 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:26:56,494 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:26:57,327 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:26:59,327 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:00,166 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:27:01,328 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:01,495 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:01,889 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:03,328 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:05,328 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:06,496 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:07,280 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:07,329 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:09,330 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:11,689 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:11,977 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:13,196 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:14,331 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:17,716 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:18,197 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:22,333 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:22,718 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:23,990 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:24,333 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:26,334 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:27,719 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:28,334 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:29,486 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:30,167 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:27:30,335 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:32,720 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:34,926 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:36,336 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:37,720 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:38,337 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:40,177 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:40,337 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:42,338 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:42,723 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:44,338 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:45,712 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:47,723 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:48,339 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:50,340 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:51,543 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:52,340 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:52,724 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:54,341 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:27:56,863 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:27:57,725 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:27:58,342 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:00,167 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:28:00,342 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:02,168 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:02,342 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:02,725 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:04,343 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:06,343 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:07,726 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:08,029 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:10,344 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:12,345 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:12,727 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:13,299 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:14,345 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:16,346 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:17,727 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:18,346 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:18,803 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:22,347 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:22,728 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:24,188 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:24,348 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:26,348 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:27,729 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:28,348 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:29,752 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:30,168 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:28:30,349 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:32,349 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:32,729 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:34,350 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:35,315 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:36,350 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:37,730 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:38,351 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:40,351 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:40,638 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:42,352 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:42,731 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:44,352 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:45,888 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:47,732 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:48,353 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:50,354 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:51,183 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:52,354 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:52,732 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:54,354 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:56,355 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:28:56,454 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:28:57,733 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:28:58,355 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:00,168 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:29:00,356 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:01,843 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:02,356 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:02,733 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:04,357 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:06,357 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:07,257 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:07,734 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:08,358 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:10,358 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:12,735 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:12,971 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:14,359 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:16,359 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:17,735 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:18,254 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:18,360 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:20,360 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:22,361 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:22,736 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:23,849 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:24,361 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:26,362 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:27,737 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:28,362 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:29,314 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:30,169 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:29:30,362 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:32,363 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:32,738 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:34,363 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:34,908 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:37,738 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:38,364 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:40,272 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:40,365 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:42,365 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:42,743 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:44,365 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:45,928 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:46,366 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:47,744 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:48,367 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:50,367 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:51,756 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:52,367 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:52,744 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:56,368 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:29:57,132 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:29:57,745 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:29:58,369 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:00,169 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:30:00,369 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:02,228 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:02,370 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:02,746 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:04,370 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:06,370 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:07,746 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:07,972 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:10,371 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:12,372 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:12,747 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:13,292 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:14,372 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:16,373 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:17,748 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:18,373 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:18,544 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:20,374 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:22,374 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:22,748 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:24,295 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:24,374 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:26,375 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:27,749 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:28,375 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:29,785 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:30,073 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:30:30,074 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:30:30,074 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:30:30,075 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:30:30,170 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:30:30,376 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:30,376 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:30:32,377 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:32,752 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:34,377 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:34,836 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:36,378 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:37,753 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:38,378 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:39,842 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:40,378 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:42,379 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:42,755 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:44,379 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:44,905 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:46,380 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:47,756 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:48,380 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:49,993 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:50,381 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:52,305 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-15 18:30:52,306 DEBUG   SenderThread:7119 [sender.py:send():382] send: history
+2024-03-15 18:30:52,307 DEBUG   SenderThread:7119 [sender.py:send_request():409] send_request: summary_record
+2024-03-15 18:30:52,307 INFO    SenderThread:7119 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-15 18:30:52,381 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:52,381 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/wandb-summary.json
+2024-03-15 18:30:52,757 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:54,381 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:30:55,308 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:30:57,762 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:30:58,382 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:00,170 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:31:00,383 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:01,171 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:02,383 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:02,762 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:04,384 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:06,384 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:06,856 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:07,765 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:08,385 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:12,132 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:12,386 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:12,765 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:14,386 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:16,387 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:17,698 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:17,766 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:18,387 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:20,388 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:22,388 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:22,766 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:23,008 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:24,389 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:26,389 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:27,767 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:28,326 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:30,171 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:31:30,390 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:33,277 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:38,392 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:40,050 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:40,051 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:40,051 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:43,647 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:43,681 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:48,647 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:48,681 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:53,648 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:31:54,396 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:54,663 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:31:56,396 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:58,397 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:31:58,649 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:00,084 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:00,171 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:32:00,397 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:02,398 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:03,649 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:04,398 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:05,390 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:06,399 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:08,399 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:08,650 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:11,218 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:12,400 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:13,651 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:14,401 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:16,309 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:16,401 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:18,402 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:18,652 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:20,402 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:21,558 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:23,652 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:24,403 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:26,404 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:26,622 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:28,404 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:28,653 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:30,172 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:32:30,405 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:32,012 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:32,406 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:33,653 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:34,406 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:36,407 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:37,456 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:38,408 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:38,654 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:42,409 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:42,847 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:43,655 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:44,409 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:46,410 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:48,249 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:48,411 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:48,656 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:50,411 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:52,412 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:53,419 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:53,656 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:32:54,412 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:58,413 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:32:58,645 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:32:58,657 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:00,172 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:33:00,414 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:03,658 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:04,173 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:06,416 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:08,658 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:09,772 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:10,417 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:12,417 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:13,659 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:14,418 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:15,034 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:16,418 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:18,660 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:20,420 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:20,585 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:23,661 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:24,421 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:25,806 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:28,422 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:28,661 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:30,173 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:33:31,181 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:32,423 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:33,662 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:36,424 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:36,583 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:38,663 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:41,805 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:42,426 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:43,664 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:46,427 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:47,443 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:48,665 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:50,428 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:52,429 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:52,757 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:33:53,665 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:56,430 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:33:58,666 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:33:58,694 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:00,173 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:34:02,432 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:03,667 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:03,805 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:04,432 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:08,433 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:08,668 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:09,522 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:10,434 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:13,669 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:14,435 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:14,678 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:16,436 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:18,669 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:20,437 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:20,634 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:22,437 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:23,670 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:24,438 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:25,661 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:28,439 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:28,671 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:30,180 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:34:30,442 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:31,181 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:33,672 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:34,443 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:36,383 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:38,674 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:41,384 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:42,450 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:43,676 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:46,497 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:48,452 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:48,677 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:52,453 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:52,454 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:53,678 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:34:56,454 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:34:57,968 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:34:58,678 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:35:00,175 DEBUG   SenderThread:7119 [sender.py:send():382] send: stats
+2024-03-15 18:35:00,456 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:02,457 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:03,568 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:35:03,679 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:35:06,459 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:08,459 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:08,680 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:35:08,850 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-15 18:35:10,460 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:12,461 INFO    Thread-13 :7119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/labicquette/M1/intro-to-nlp-Nantes/projet-nlp-Nantes/wandb/run-20240315_175323-va2470w5/files/output.log
+2024-03-15 18:35:13,681 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-15 18:35:14,273 DEBUG   HandlerThread:7119 [handler.py:handle_request():146] handle_request: status_report
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
