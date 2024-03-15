@@ -72,11 +72,33 @@ CHARLOT Théo - SEWRAJ Hreshvik
 | -------- | -------- | --------:|
 | 2.0 | 1.0 | 1.5 |
 
-### Run12: camembert-finetuné-weighted
-	Camembert finetuné pendant 1900 steps avec modification des poids avec un poids plus élevé pour la classe Entrée
+### Run12: camembert-finetuné-less-naive-weighted
+	Camembert finetuné pendant 1200 steps avec modification des poids avec un poids plus élevé pour la classe Entrée
+ 	La modification des poids se fait directement dans le fichier legal_eval_ft.py ligne 47 
+ 	Utilisation : 
+  		fine-tuning : 
+			python3 legal_eval_ft.py --data-path ./data/distilbert/recette \
+						 --model-name almanach/camembert-base \
+						 --output-dir ./models/camembert-base-naive-weights-/ \
+						 --custom-trainer \
+						 --num-epochs 10 
+		inférence : 
+  			python3 legal_eval_infer.py ./data/distilbert/recette/test.csv \
+						--model-name ./models/camembert-base-less-naive-weights-/almanach_camembert-base-ft-BUILD/checkpoint-1200   
 | Entrée      | Plat principal | Dessert |
 | -------- | -------- | --------:|
 | 3.0 | 1.0 | 1.5 |
+
+### Liens huggingface pour git clone les modèles dans le dossier ./models
+[camembert-base](https://huggingface.co/labicquette/camembert-base)
+ 	
+[distilbertcheffo](https://huggingface.co/labicquette/distilbertcheffo)
+
+[camembert-base-combination](https://huggingface.co/labicquette/camembert-base-combination)
+
+[camembert-base-naive-weights](https://huggingface.co/labicquette/camembert-base-naive-weights)
+
+[camembert-base-less-naive-weights](https://huggingface.co/labicquette/camembert-base-less-naive-weights)
 
 ## Résumé Résultats
 
@@ -88,8 +110,9 @@ CHARLOT Théo - SEWRAJ Hreshvik
 | TFIDF-RF+SMOTE |  84,0 |
 | distilbert-ft-recette-3120   | 85,7  |
 | camembert-base-1248   | 87,6 |	
+| camembert-base-less-naive-weights-1200   | 87,9 |	
 
-### Analyse de résultats
+### Analyse des résultats
 
 #### Architectures TF-IDF :
 Premièrement, nous avons étudié la distribution des types de recettes à travers notre dataset. Nous avons remarqué que les plats principaux étaient une classe majoritaire. Ensuite, nous avons testé une pipeline avec TF-IDF et la méthode RandomForestClassifier. Cela a donné un score F1 en général de 77,0. Nous avons remarqué que le classifieur avait du mal à séparer les entrées et les plats principaux car les recettes se ressemblent et comme les plats principaux sont une classe majoritaire, le classifieur a tendance à donner une réponse biaisée.
@@ -104,7 +127,7 @@ Pour commencer nous avons étudié l'impact des classes sur l'entraînement de d
 Nous nous sommes donc tournés vers l'utilisation d'un modèle de langue entraîné sur la langue française, le tokenizer de distilbert retirant les accents. 
 Nous observons les meilleurs résultats grâce à camembert entraîné sur les recettes. 
 
-Pour améliorer ces résultats nous nous sommes penchés comme précédemment vers la modification de la représentation des classes. Ici nous modifions les poids de la loss function en augmentant l'importance de la classe Entrée et Dessert en suivant leurs répartition dans la classe Train. Les résultats montrent qu'il n'y a pas d'amélioration, nous obtenons les mêmes performances. La courbe d'apprentissage est par contre plus lisse et ne varie plus autant. L'entrée reste la classe tirant vers les bas les performances avec en moyenne 0.75 en F1-score
+Pour améliorer ces résultats nous nous sommes penchés comme précédemment vers la modification de la représentation des classes. Ici nous modifions les poids de la loss function en augmentant l'importance de la classe Entrée et Dessert en suivant leurs répartition dans la classe Train. La courbe d'apprentissage est plus lisse et nous obtenons un score de 87,9. L'entrée reste tout de même la classe tirant vers les bas les performances.
 
 #### Pistes d'amélioration :
 - Modifier la tâche de classification de phrases en tâche de masquage de token en masquant le dernier token qui serait dans notre cas un des trois labels de classe. En faisant ainsi il serait alors possible d'utiliser des méthodes d'optimisation de prompt telles que le few-shot learning qui généralement améliore les performances.
@@ -138,8 +161,10 @@ Pour améliorer ces résultats nous nous sommes penchés comme précédemment ve
 
 ## Résultats Transformers BERT:
 
+| Run      | f1 Score |
+| -------- | --------:|
 | distilbert-ft-recette-3120   | 85,7  |
 | distilbert-ft-ingredients-3744   | 83,0  |	
 | camembert-base-1248   | 87,6 |	
 | camembert-base-naive-weights-1900   | 87,6 |	
-| camembert-base-weights-1900   | 87,6 |	
+| camembert-base-less-naive-weights-1200   | 87,9 |	
