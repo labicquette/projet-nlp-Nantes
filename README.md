@@ -84,13 +84,19 @@ CHARLOT Théo - SEWRAJ Hreshvik
 | -------- | --------:|
 | baseline |  21,1 |
 | Word2Vec+MLP  |  80,0|
-| TFIDF-RF+SMOTE+norm |  83,0 |
-| TFIDF-RF+SMOTE |  85,0 |
+| TFIDF-RF+SMOTE+norm |  85,0 |
+| TFIDF-RF+SMOTE |  84,0 |
 | distilbert-ft-recette-3120   | 85,7  |
 | camembert-base-1248   | 87,6 |	
 
 ### Analyse de résultats
 
+#### Architectures TF-IDF :
+Premièrement, nous avons étudié la distribution des types de recettes à travers notre dataset. Nous avons remarqué que les plats principaux étaient une classe majoritaire. Ensuite, nous avons testé une pipeline avec TF-IDF et la méthode RandomForestClassifier. Cela a donné un score F1 en général de 77,0. Nous avons remarqué que le classifieur avait du mal à séparer les entrées et les plats principaux car les recettes se ressemblent et comme les plats principaux sont une classe majoritaire, le classifieur a tendance à donner une réponse biaisée.
+
+Deuxièmement, nous avons testé un autre classifieur, le KNN (K-Nearest Neighbors), celui-ci s'est montré plus performant avec un score F1 de 78,0. Le classifieur arrivait à mieux séparer les plats principaux et les entrées.
+
+Troisièmement, nous avons décidé de normaliser les données en enlevant toutes les majuscules et les "mots vides" ainsi que la ponctuation dans les recettes afin de les simplifier. Nous avons également décidé d'utiliser une technique nommée SMOTE (Synthetic Minority Over-sampling Technique) pour générer des exemples synthétiques pour les classes minoritaires en interpolant entre les instances existantes. Pour le RandomForest, les résultats ont augmenté (jusqu'à 81), mais ont baissé pour le KNN (jusqu'à 50). Ceci peut être dû au fait que le KNN est un algorithme qui fonctionne quand une grande classe majoritaire est présente dans une donnée, mais comme cette classe majoritaire a été supprimée grâce au SMOTE, le KNN fonctionne mal.
 
 #### Architectures BERT :
 Pour commencer nous avons étudié l'impact des classes sur l'entraînement de distilbert, recette est l'unique classe permettant d'atteindre des scores supérieurs à 85, en effet, titre, ingrédients ainsi que la combinaison des 3 ont de moins bonnes performances. 
@@ -116,19 +122,19 @@ Pour améliorer ces résultats nous nous sommes penchés comme précédemment ve
 
 | Run      | f1 Score |
 | -------- | --------:|
-| TFIDF-RF |  82,0 |
-| TFIDF-KNN |  81,0 |
-| TFIDF-RF+SMOTE |  85,0 |
-| TFIDF-KNN+SMOTE |  53,0 |
+| TFIDF-RF |  77,0 |
+| TFIDF-KNN |  78,0 |
+| TFIDF-RF+SMOTE |  83,0 |
+| TFIDF-KNN+SMOTE |  50,0 |
 
 ## Résultats TF-IDF normalisés:
 
 | Run      | f1 Score |
 | -------- | --------:|
-| TFIDF-RF |  83,0 |
-| TFIDF-KNN |  81,0 |
-| TFIDF-RF+SMOTE |  83,0 |
-| TFIDF-KNN+SMOTE |  53,0 |
+| TFIDF-RF |  76,0 |
+| TFIDF-KNN |  78,0 |
+| TFIDF-RF+SMOTE |  81,0 |
+| TFIDF-KNN+SMOTE |  50,0 |
 
 ## Résultats Transformers BERT:
 
