@@ -89,7 +89,12 @@ CHARLOT Théo - SEWRAJ Hreshvik
 | -------- | -------- | --------:|
 | 3.0 | 1.0 | 1.5 |
 
-### Liens huggingface pour git clone les modèles dans le dossier ./models
+### Liens huggingface
+git clone les modèles dans le dossier ./models et s'assurer d'avoir installé git lfs
+	
+ 	git lfs install
+  	git clone https://huggingface.co/labicquette/camembert-base
+ 
 [camembert-base](https://huggingface.co/labicquette/camembert-base)
  	
 [distilbertcheffo](https://huggingface.co/labicquette/distilbertcheffo)
